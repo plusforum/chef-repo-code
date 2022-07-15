@@ -1,0 +1,51 @@
+{
+  "revision_id": "68d45a23944bb377c91c37d710a261ec9ca49c71e124e74e222526ebb5c8b3ba",
+  "name": "lamp",
+  "run_list": [
+    "recipe[lamp::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "lamp": {
+      "version": "0.1.0",
+      "identifier": "7109646a3c2dcb97719658b5a30cc950abaa8cef",
+      "dotted_decimal_identifier": "31816999252012491.42627612030640908.221348314647791",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": null,
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "lamp",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "lamp (0.1.0)": [
+
+      ]
+    }
+  }
+}
